@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-family: arial, "sans-serif";
+    }  
+   table {
+      width: 250px;
+      border: 2px solid #888;
+      margin: 50px auto;
+    }
+    th,td {
+      border: 2px solid #888;
+    }
+
+    input[type="text"],input[type="password"],select {
+      width: 100%;
+      border: none;
+      padding: 5px;
+
+    }
+
+
+
+
+  </style>
+
+</head>
+<body>
+  
+  <!-- Register form-->
+  <form method="post">  
+    <table>
+    <thead>
+      <tr>
+        <th colspan="2">Registration form</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <label for="firstname">First name</label>
+        </td>
+        <td>
+          <input type="text" name="firstname" id="firstname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lastname">Last name</label>
+        </td>
+        <td>
+          <input type="text" id="lastname" name="lastname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="username">Username</label>
+        </td>
+        <td>
+          <input type="text" id="username" name="username">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password</label>
+        </td>
+        <td>
+          <input type="password" id="password" name="password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Track</label>
+        </td>
+        <td>
+          <select name="" id="">
+            <option value="">...</option>
+            <option value="">BI</option>
+            <option value="">OS</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <label for="gender">Gender</label>
+        </td>
+        <td>
+          <input id="male" type="radio" name="gender" value="male">
+          <label for="male">Male</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input id="female" type="radio" name="gender" value="female">
+          <label for="female">Female</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Favoruit</label>
+        </td>
+        <td>
+          <input id="football" type="checkbox" name="favourit" value ="football">
+          <label for="football">football</label>
+          <input id="basketball" type="checkbox" name="favourit" value="basketball" >
+          <label for="basketball">basketball</label>
+          <br>
+          <input type="checkbox" name="favourit" id="games">
+          <label for="games">games</label>
+          <br>
+          <input type="checkbox" name="favourit" id="reading" value="reading">
+          <label for="reading">Reading</label>
+          <input type="checkbox" name="favourit" id="swimming" value="swimming">
+          <label for="swimming">swimming</label>
+          <br>
+          <input type="checkbox" name="favourit" id="trave" value="swimming">
+          <label for="trave">trave</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="description">Description</label>
+        </td>
+        <td>
+          <textarea name="description" id="description" cols="22" rows="4" style="resize:none;"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center">
+          <input type="submit" value="Submit">
+          <input type="reset" value="reset">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="file">
+        </td>
+              
+    </tbody>
+  </table>
+  </form>
+
+
+  
+<table>
+  <caption>My table</caption>
+  <!-- table head -->
+   <thead>
+     <tr>
+       <th colspan="6">all data</th>
+     </tr>
+  </thead>
+  
+  <!-- table body -->
+  <tbody>
+    <tr>
+      <td rowspan="4">name</td>
+      <td>Ahmed</td>
+      <td rowspan="4">Phone</td>
+      <td>01110062020</td>
+      <td rowspan="4">Email</td>
+      <td>ahmed@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Sayed</td>
+      <td>01016509131</td>
+      <td>sayed@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Khaled</td>
+      <td>01114589669</td>
+      <td>khaled@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Moraad</td>
+      <td>01114589669</td>
+      <td>morad@gmail.com</td>
+    </tr>
+    
+  </tbody>
+  
+  <!-- table footer -->
+  <tfoot>
+    <tr>
+      <td colspan="4" style="text-align:center;">Working hour</td>
+      <td colspan="4" style="text-align:center;">70/month</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th rowspan="3">Robots Company</th>
+  </tr>
+ 
+  <tr>
+    <td>Mostafa</td>
+    <td>Shawky</td>   
+  </tr>
+  <tr>
+    <td>Sayed</td>
+    <td>mahmoud</td>
+  </tr>
+
+</body>
+</html>
